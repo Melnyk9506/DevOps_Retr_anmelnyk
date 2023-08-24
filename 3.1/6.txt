@@ -1,0 +1,3 @@
+How to define kernel processes and user processes?
+top command 
+ps command

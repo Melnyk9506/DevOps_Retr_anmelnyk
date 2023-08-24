@@ -1,0 +1,18 @@
+Owner (u):
+The owner of the file or directory. This is the user who created the file or directory.
+
+r (Read): Allows reading the content of a file or listing the contents of a directory.
+w (Write): Allows modifying the content of a file or creating/deleting files in a directory.
+x (Execute): Allows executing (running) a file if it's a program or script, or entering a directory if it's a directory.
+Group (g):
+The group associated with the file or directory. Users who are members of this group have these permissions.
+
+r (Read): Allows reading the content of a file or listing the contents of a directory.
+w (Write): Allows modifying the content of a file or creating/deleting files in a directory.
+x (Execute): Allows executing (running) a file if it's a program or script, or entering a directory if it's a directory.
+Others (o):
+All other users who are neither the owner nor part of the group.
+
+r (Read): Allows reading the content of a file or listing the contents of a directory.
+w (Write): Allows modifying the content of a file or creating/deleting files in a directory.
+x (Execute): Allows executing (running) a file if it's a program or script, or entering a directory if it's a directory.

@@ -1,0 +1,7 @@
+Examples of /proc file system entries include:
+
+/proc/cpuinfo: Information about the CPU.
+/proc/meminfo: Information about memory usage.
+/proc/<pid>/status: Status and information about a specific process.
+/proc/filesystems: List of supported filesystem types.
+/proc/sys: Configuration parameters for the kernel.

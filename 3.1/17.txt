@@ -1,0 +1,43 @@
+jobs: This command lists the background jobs that are currently running or stopped in the current shell session.
+
+fg (foreground): This command brings a background job to the foreground, allowing it to receive input and display output on the terminal. If there are multiple background jobs, you can specify the job number as an argument.
+
+bg (background): This command resumes a stopped background job, allowing it to continue running in the background.
+
+nohup: This command is used to run a command immune to hangups (disconnections). It's often used to prevent a process from being terminated when the terminal session ends
+
+
+Open a terminal.
+
+Start a background job using the sleep command (this will keep the job running):
+
+bash
+Copy code
+sleep 300 &
+Start another background job using the yes command (this will generate continuous output):
+
+bash
+Copy code
+yes > /dev/null &
+Use the jobs command to list the background jobs:
+
+bash
+Copy code
+jobs
+Bring the first background job (sleep) to the foreground using fg:
+
+bash
+Copy code
+fg %1
+While the sleep command is in the foreground, press Ctrl+Z to pause it.
+
+Use the bg command to move the paused sleep command to the background:
+
+bash
+Copy code
+bg
+Now, bring the second background job (yes) to the foreground using fg:
+
+bash
+Copy code
+fg %2

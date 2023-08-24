@@ -1,0 +1,3 @@
+Press r to enter the "renice" mode.
+Enter 1234 as the PID and press Enter.
+Enter a higher niceness value (e.g., +10) and press Enter.

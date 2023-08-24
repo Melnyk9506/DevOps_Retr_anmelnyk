@@ -1,0 +1,9 @@
+Running: The process is actively executing and using CPU resources.
+
+Blocked (Waiting): The process is unable to execute due to some condition, such as waiting for a resource, waiting for user input, or waiting for I/O to complete.
+
+Ready: The process is ready to run but is currently not executing because the CPU is allocated to another process. It is waiting in the queue to be scheduled for execution.
+
+Terminated (Exited): The process has finished executing its task and has been terminated. It is no longer running and has released its resources.
+
+Stopped (Suspended): The process has been stopped, usually by a user or another process, and is not allowed to execute until it is explicitly resumed. This is often used for debugging or managing processes.

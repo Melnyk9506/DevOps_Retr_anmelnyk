@@ -1,0 +1,27 @@
+Sorting Processes:
+
+Press M to sort processes by memory usage.
+Press P to sort processes by CPU usage.
+Press T to sort processes by cumulative time.
+Changing Refresh Rate:
+
+Press s, enter 3, and press Enter to set the refresh interval to 3 seconds.
+Filtering Processes by User:
+
+Press u, enter john, and press Enter to show processes owned by the user "john."
+Highlighting Threads:
+
+Press H to highlight threads associated with the selected process.
+Display Options:
+
+Press l to toggle the display of load averages.
+Press f to customize visible fields and their order.
+Press b to toggle bold colors.
+Press 1 to display per-CPU usage instead of a summary.
+Process Actions:
+
+Press k, enter a PID, and press Enter to send a signal to kill the specified process.
+Press r, enter a PID, enter a new priority value (e.g., 10 for highest priority), and press Enter to renice a process.
+Exiting top:
+
+Press q to quit the top command.

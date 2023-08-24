@@ -1,0 +1,20 @@
+Launch a New Process with Specific Niceness:
+
+bash
+Copy code
+nice -n <niceness_value> <command>
+For example, to start a process with a niceness value of -10, you would use:
+
+bash
+Copy code
+nice -n -10 ./my_program
+Change Niceness Value of an Existing Process:
+
+bash
+Copy code
+renice <niceness_value> -p <pid>
+For example, to change the niceness value of a process with PID 1234 to +5, you would use:
+
+bash
+Copy code
+renice +5 -p 1234
