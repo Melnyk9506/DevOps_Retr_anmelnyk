@@ -227,6 +227,13 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.4.0</version>
+</dependency>
+
 	</dependencies>
 	<repositories>
 		<!-- For testing against latest Spring snapshots -->
@@ -259,6 +266,7 @@
 				<configuration>
 					<source>${java-version}</source>
 					<target>${java-version}</target>
+					  <version>3.11.0</version>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -299,6 +307,11 @@
 						<artifactId>aspectjtools</artifactId>
 						<version>${org.aspectj-version}</version>
 					</dependency>
+					<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.1.2</version>
+</dependency>
 				</dependencies>
 				<executions>
 					<!-- execution>
